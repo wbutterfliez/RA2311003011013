@@ -6,11 +6,11 @@ export async function getToken() {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      email: "YOUR_EMAIL",
-      name: "YOUR_NAME",
-      mobileNo: "YOUR_PHONE",
-      githubUsername: "YOUR_GITHUB",
-      rollNo: "YOUR_ROLL",
+      email: "dr2603@srmist.edu.in",
+      name: "Didhiti_Rai",
+      mobileNo: "8767243258",
+      githubUsername: "wbutterfliez",
+      rollNo: "RA2311003011013",
       accessCode: "QkbpxH"
     })
   });

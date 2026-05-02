@@ -43,14 +43,14 @@ export default function Page() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>🔥 Priority</h2>
+      <h2>Priority</h2>
       {(top || []).map(n => (
         <div key={n.ID} onClick={() => markRead(n.ID)}>
           <NotificationCard n={n} read={read.includes(n.ID)} />
         </div>
       ))}
 
-      <h2>📦 All</h2>
+      <h2>All</h2>
       {(all || []).map(n => (
         <div key={n.ID} onClick={() => markRead(n.ID)}>
           <NotificationCard n={n} read={read.includes(n.ID)} />
